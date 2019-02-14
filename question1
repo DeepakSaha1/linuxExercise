@@ -1,0 +1,22 @@
+ttn@animesh-deepak:~ $ mkdir exercise
+
+ttn@animesh-deepak:~ $ cd exercise/
+ttn@animesh-deepak:exercise $ mkdir -p dir1/dir2/dir3
+
+ttn@animesh-deepak:exercise $ ls
+dir1
+
+ttn@animesh-deepak:exercise $ cd dir1/
+
+ttn@animesh-deepak:dir1 $ ls
+dir2
+
+ttn@animesh-deepak:dir1 $ cd dir2/
+
+ttn@animesh-deepak:dir2 $ ls
+dir3
+
+ttn@animesh-deepak:dir2 $ cd dir3/
+
+ttn@animesh-deepak:dir3 $ ls
+ttn@animesh-deepak:dir3 $
