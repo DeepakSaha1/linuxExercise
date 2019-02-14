@@ -1,0 +1,62 @@
+Login as test user and edit the "output" file created above. Since the permission wont
+allow you to save the changes. Configure such that test user can edit it.
+
+1. Add group owner of the "output" file as the secondary group of testuser and check/change the
+"output" file permission if it is editable by group. Once done revert the changes
+
+ttn@animesh-deepak:dir1 $ sudo groupadd testuser
+[sudo] password for ttn:
+
+ttn@animesh-deepak:dir1 $ sudo chown -R test:testuser output
+
+
+ttn@animesh-deepak:dir1 $ sudo chgrp testuser output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-rw-r--r-- 1 test testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $ sudo chmod g+rwx output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-rw-rwxr-- 1 test testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-rw----r-- 1 test testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $
+
+2. Make the file editable to the world so that test user can access it. Revert the changes after verification
+
+ttn@animesh-deepak:dir1 $ sudo chown -R test output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-rw----r-- 1 test testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $ sudo chmod u+rwx output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-rwx---r-- 1 test testuser  189 Feb 14 19:58 output
+
+tttn@animesh-deepak:dir1 $ sudo chmod u-rwx output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-------r-- 1 test testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $
+
+3. Change the ownership to edit the file.
+
+ttn@animesh-deepak:dir1 $ sudo chown ttn output
+ttn@animesh-deepak:dir1 $ ls -lh
+total 24K
+
+-------r-- 1 ttn testuser  189 Feb 14 19:58 output
+
+ttn@animesh-deepak:dir1 $
