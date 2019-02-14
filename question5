@@ -1,0 +1,89 @@
+less command in Linux with Examples:
+
+Less command is linux utility which can be used to read contents of text
+file one page(one screen) per time. It has faster access because if file is large,
+it don’t access complete file, but access it page by page.
+
+For example, if it’s a large file and you are reading it using any text editor,
+then the complete file will be loaded to main memory, but less command don’t load entire file,
+but load it part by part, which makes it faster.
+
+syntax :
+
+less filename
+
+========================================
+
+more command in Linux with Examples:
+
+more command is used to view the text files in the command prompt,
+displaying one screen at a time in case the file is large (For example log files).
+The more command also allows the user do scroll up and down through the page.
+The syntax along with options and command is as follows. Another application of more is
+to use it with some other command after a pipe.
+When output is large, we can use more command to see output one by one.
+
+Syntax:
+
+more -d sample.txt
+
+Enter key: to scroll down line by line.
+Space bar: To go to the next page.
+b key: To go to back one page.
+
+==========================================
+
+cat command in Linux with Examples:
+
+cat command allows us to create single or multiple files, view contain of file,
+concatenate files and redirect output in terminal or files.
+
+Syntax;
+
+ttn@animesh-deepak:~ $ cat > test2
+hello how r u
+ttn@animesh-deepak:~ $ cat test2
+hello how r u
+ttn@animesh-deepak:~ $
+
+# cat test test1
+
+Hello everybody
+Hi world,
+
+==========================================
+strings command in Linux with Examples:
+
+For each file given, GNU strings prints the printable character
+sequences that are at least 4 characters long (or the number given with
+the options below) and are followed by an unprintable character.
+
+ttn@animesh-deepak:~ $ cat test2
+hello how r u
+ttn@animesh-deepak:~ $ cat >> test2
+hii
+hello
+good
+r
+who r u
+
+ttn@animesh-deepak:~ $ cat test2
+hello how r u
+hii
+hello
+good
+r
+who r u
+
+ttn@animesh-deepak:~ $ strings test2
+hello how r u
+hello
+good
+who r u
+ttn@animesh-deepak:~ $ strings -n 2 test2
+hello how r u
+hii
+hello
+good
+who r u
+ttn@animesh-deepak:~ $
