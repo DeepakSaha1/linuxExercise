@@ -1,0 +1,12 @@
+ttn@animesh-deepak:dir2 $ ls -l
+total 8
+-rw-r--r-- 1 ttn ttn    0 Feb 14 18:57 emptyFile1
+-rw-r--r-- 1 ttn ttn    0 Feb 14 18:57 emptyFile2
+
+ttn@animesh-deepak:dir2 $ touch emptyFile1 emptyFile2
+
+ttn@animesh-deepak:dir2 $ ls -l
+total 8
+-rw-r--r-- 1 ttn ttn    0 Feb 14 20:16 emptyFile1
+-rw-r--r-- 1 ttn ttn    0 Feb 14 20:16 emptyFile2
+ttn@animesh-deepak:dir2 $
