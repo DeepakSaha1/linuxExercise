@@ -1,0 +1,13 @@
+Download any image from web and move to desktop
+
+Desktop                Exercise3  linuxExercise  temp      Videos
+ttn@animesh-deepak:~ $ curl https://www.python.org/static/apple-touch-icon-144x144-precomposed.png > image.png | mv image.png /home/ttn/Desktop
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7382  100  7382    0     0  17787      0 --:--:-- --:--:-- --:--:-- 17787
+
+ttn@animesh-deepak:~ $ cd Desktop/
+
+ttn@animesh-deepak:Desktop $ ls
+image.png  question12.css  question12.html
