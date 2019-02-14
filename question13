@@ -1,0 +1,9 @@
+ttn@animesh-deepak:~ $ sudo apt-get update
+
+ttn@animesh-deepak:~ $ sudo apt-get install zip
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+zip is already the newest version (3.0-11build1).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+ttn@animesh-deepak:~ $
