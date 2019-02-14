@@ -1,0 +1,24 @@
+ttn@animesh-deepak:~ $ find /etc -name passwd
+/etc/passwd
+/etc/cron.daily/passwd
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/cups/ssl’: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/etc/libvirt/secrets’: Permission denied
+/etc/pam.d/passwd
+ttn@animesh-deepak:~ $
+
+===========================
+
+ttn@animesh-deepak:~ $ cp /etc/passwd exercise/dir1/passwd_copy
+ttn@animesh-deepak:~ $ cd exercise/dir1
+ttn@animesh-deepak:dir1 $ ls
+dir2  passwd  passwd_copy
+ttn@animesh-deepak:dir1 $
+
+============================
+
+ttn@animesh-deepak:dir1 $ mv passwd_copy passwd_backup
+ttn@animesh-deepak:dir1 $ ls
+dir2  passwd_backup
+ttn@animesh-deepak:dir1 $
