@@ -1,0 +1,4 @@
+ttn@animesh-deepak:dir2 $ echo "hello world" >> file1.txt
+ttn@animesh-deepak:dir2 $ cat file1.txt
+hello world
+ttn@animesh-deepak:dir2 $
