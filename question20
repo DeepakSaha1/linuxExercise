@@ -1,0 +1,14 @@
+You are appointed as a Software/DevOps Engineer in ABC media services.
+On your first day you need to troubleshoot a problem. There is a command “xyz”
+somewhere installed in that linux system. But as a new joinee you do not have any
+idea about where is that Installed. How can you check that?
+
+Solution: which and whichis command.
+Example:
+
+ttn@animesh-deepak:tmp $ which ls
+/bin/ls
+
+ttn@animesh-deepak:tmp $ whereis ls
+ls: /bin/ls /usr/share/man/man1/ls.1.gz
+ttn@animesh-deepak:tmp $
