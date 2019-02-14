@@ -1,0 +1,7 @@
+ttn@animesh-deepak:dir1 $ tar cvf ball.tar output passwd_backup
+output
+passwd_backup
+ttn@animesh-deepak:dir1 $ ls
+ball.tar  dir2  output  passwd_backup
+
+ttn@animesh-deepak:dir1 $ more ball.tar
