@@ -1,0 +1,13 @@
+ttn@animesh-deepak:dir1 $ grep -n /bin/false passwd_backup
+30:speech-dispatcher:x:111:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+31:whoopsie:x:112:117::/nonexistent:/bin/false
+37:hplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+39:gnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+40:gdm:x:121:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+43:mysql:x:122:127:MySQL Server,,,:/nonexistent:/bin/false
+
+===================================================
+
+ttn@animesh-deepak:dir1 $ grep -c /bin/false passwd_backup
+6
+ttn@animesh-deepak:dir1 $
