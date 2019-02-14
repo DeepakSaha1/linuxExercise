@@ -1,0 +1,11 @@
+ttn@animesh-deepak:/ $ ln -s /etc/services /tmp/ports-info
+
+ttn@animesh-deepak:/ $ cd tmp
+
+ttn@animesh-deepak:tmp $ ls
+ aliastesting
+ aliasUser
+'Atom Crashes'
+ ports-info
+
+ ttn@animesh-deepak:tmp $ 
