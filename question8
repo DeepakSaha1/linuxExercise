@@ -1,0 +1,13 @@
+ttn@animesh-deepak:~ $ sudo useradd test
+
+ttn@animesh-deepak:~ $ sudo passwd test
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+
+ttn@animesh-deepak:~ $ id -u test
+1001
+
+ttn@animesh-deepak:~ $ id test
+uid=1001(test) gid=1001(test) groups=1001(test)
+ttn@animesh-deepak:~ $
