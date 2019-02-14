@@ -1,0 +1,4 @@
+ttn@animesh-deepak:dir2 $ touch emptyFile1 emptyFile2
+ttn@animesh-deepak:dir2 $ ls
+dir3  emptyFile1  emptyFile2
+ttn@animesh-deepak:dir2 $
