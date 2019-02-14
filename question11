@@ -1,0 +1,26 @@
+ttn@animesh-deepak:~ $ alias deepak="touch /tmp/aliastesting"
+
+ttn@animesh-deepak:~ $ deepak
+
+ttn@animesh-deepak:~ $ cd /tmp
+
+ttn@animesh-deepak:tmp $ ls
+ aliastesting
+ aliasUser
+'Atom Crashes'
+ atom-XB1tp4zXerDS.sock
+ config-err-tTbvNg
+ grilo-plugin-cache-0ZE2WZ
+ grilo-plugin-cache-6IC7WZ
+ grilo-plugin-cache-DAJ2WZ
+ grilo-plugin-cache-LPW1WZ
+ ssh-F5z2IuASRusR
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-bolt.service-8xSqtI
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-colord.service-qj8iNd
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-fwupd.service-I2Q5Mu
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-ModemManager.service-vpmJOx
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-rtkit-daemon.service-UznpUt
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-systemd-resolved.service-We5lE9
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-systemd-timesyncd.service-8L5G6S
+ systemd-private-2e0f74de8e0c441aa816a11bf1ad17d6-upower.service-OF89Kf
+ttn@animesh-deepak:tmp $ cd /tmp
