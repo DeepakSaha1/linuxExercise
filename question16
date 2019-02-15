@@ -1,0 +1,17 @@
+welcome
+test3@animesh-deepak:~$ ls
+ball.tar  examples.desktop  output  passwd_backup
+test3@animesh-deepak:~$
+
+welcome
+test3@animesh-deepak:~$ ls
+ball.tar  examples.desktop
+test3@animesh-deepak:~$ tar -xvf tar.ball
+tar: tar.ball: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+test3@animesh-deepak:~$ tar -xvf ball.tar
+output
+passwd_backup
+test3@animesh-deepak:~$ ls
+ball.tar  examples.desktop  output  passwd_backup
+test3@animesh-deepak:~$
