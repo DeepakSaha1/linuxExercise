@@ -1,0 +1,17 @@
+ttn@animesh-deepak:~ $ sudo su - test3
+test3@animesh-deepak:~$ whoami
+test3
+test3@animesh-deepak:~$ echo clear >> .bashrc
+test3@animesh-deepak:~$ echo "echo welcome" >> .bashrc
+test3@animesh-deepak:~$
+=========================================
+ttn@animesh-deepak:~ $ sudo su - test3
+test3@animesh-deepak:~$ whoami
+test3
+
+welcome
+test3@animesh-deepak:/home/ttn$ whoami
+test3
+test3@animesh-deepak:/home/ttn$ su ttn
+Password:
+ttn@animesh-deepak:~ $
